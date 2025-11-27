@@ -1,0 +1,117 @@
+/* -------- Global -------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* -------- Navbar -------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #bce3ab;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-buttons button {
+    border: 1px solid #333;
+    background: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.profile-icon .circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #d6c8ff;
+    border: 2px solid #998aff;
+}
+
+/* -------- Main Content -------- */
+.content {
+    padding: 40px 60px;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subheading {
+    margin: 5px 0 25px;
+    color: gray;
+}
+
+/* -------- Search Bar -------- */
+.search-container {
+    width: 340px;
+    background: #eae0ef;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+}
+
+.filter-icon,
+.search-icon {
+    cursor: pointer;
+}
+
+/* -------- Job Cards -------- */
+.job-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.job-card {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.job-image {
+    width: 130px;
+    height: 130px;
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+
+.job-info h3 {
+    margin-top: 0;
+}
+
+.apply-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+}

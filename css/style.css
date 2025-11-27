@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.navbar {
+    background: #b2e6a8;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid #434343;
+    background: white;
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.profile-btn {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    padding: 10px 20px;
+    border: 1px solid #555;
+    background: #fff;
+    border-radius: 25px;
+}
+
+/* Profile section */
+.profile-section {
+    flex: 2;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    background: #d8c9ff;
+    border-radius: 50%;
+}
+
+/* Cards */
+.card {
+    background: #d1d1d1;
+    padding: 20px;
+    margin: 10px 0 30px;
+    border-radius: 4px;
+}
+
+/* Side panel */
+.side-panel {
+    flex: 1;
+}
+
+.side-panel h3 {
+    margin-top: 60px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.card ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    background: black;
+    border-radius: 50%;
+}
